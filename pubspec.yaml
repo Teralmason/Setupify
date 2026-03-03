@@ -1,0 +1,49 @@
+name: Setupify
+description: "A new Flutter project for PC setups."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+
+  # Firebase Servisleri
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.2
+  firebase_storage: ^12.0.1
+
+  # Yardımcı Paketler
+  provider: ^6.1.2
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  cupertino_icons: ^1.0.6
+  carousel_slider: ^5.1.2
+  photo_view: ^0.15.0
+  http: ^1.6.0
+  google_generative_ai: ^0.4.7
+  dart_openai: ^6.1.1
+  flutter_markdown: ^0.7.7+1
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#121212" # Arka plan rengin
