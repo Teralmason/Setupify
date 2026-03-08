@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 <div align="center">
   <img src="assets/icon.png" width="100" />
   <h1>Setupify</h1>
@@ -24,4 +23,4 @@ Flutter • Firebase • Cloudinary
 
 ## 📥 Android
 [Son sürümü indir](https://github.com/Teralmason/Setupify/releases/latest)
-EOF
+
